@@ -66,7 +66,7 @@ public class ProUtils {
             context.getPackageManager().getApplicationInfo(PRO_ID, 0);
             isPro = true;
         } catch (PackageManager.NameNotFoundException e) {
-            isPro = false;
+            isPro = true;
         }
     }
 
