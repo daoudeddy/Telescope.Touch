@@ -48,7 +48,7 @@ public class ProUtils {
     public static final String CAPTURE_PRO_COUNTER = "capture_pro_counter";
     public static final String PHD2_PRO_COUNTER = "phd2_connection_counter";
     public static final String SFTP_PRO_COUNTER = "sftp_connection_counter";
-    public static boolean isPro = false;
+    public static boolean isPro = true;
 
     public static void maybeProVersionDialog(SharedPreferences preferences, Context context) {
         if (preferences.getBoolean(PRO_MESSAGE_PREF, true)) {
